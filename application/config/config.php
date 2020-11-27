@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost/webapp/ua-project';
-$config['base_url'] = 'http://localhost/ua-project';
+$config['base_url'] = 'http://localhost/ua';
 
 /*
 |--------------------------------------------------------------------------

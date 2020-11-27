@@ -47,9 +47,9 @@
 			            </li>
 			            <li class="menu-list"><a href=""><i class="mdi mdi-file-multiple"></i> <span>Proposals</span></a>
 			                <ul class="child-list">
-			                    <li><a href="<?=base_url();?>research/create-reseach-proposal"> Submit Research Proposal</a></li>
-			                    <li><a href="<?=base_url();?>research/review-reseach-proposal"> Review Research Proposal</a></li>
-			                    <li><a href="<?=base_url();?>in-house-review"> Endorse Research for In-house Review</a></li>
+			                    <li><a href="<?=base_url();?>research/create"> Submit Research Proposal</a></li>
+			                    <li><a href="<?=base_url();?>research/list"> Review Research Proposal</a></li>
+			                    <li><a href="<?=base_url();?>research/inhouse"> Endorse Research for In-house Review</a></li>
 			                    <li><a href="<?=base_url();?>approve-research-proposal"> Approve Reseach Proposal</a></li>
 			                    <li><a href="<?=base_url();?>coordinators-list"> List of Coordinators</a></li>
 			                    <li><a href="<?=base_url();?>activities"> Activities</a></li>
