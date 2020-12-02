@@ -45,16 +45,16 @@
 			            <li>
 			                <h3 class="navigation-title">Research</h3>
 			            </li>
-			            <li class="menu-list"><a href=""><i class="mdi mdi-file-multiple"></i> <span>Proposals</span></a>
+			            <li class="menu-list<?= $this->uri->segment(1) == 'research' ? ' nav-active active':'' ?>"><a href=""><i class="mdi mdi-file-multiple"></i> <span>Proposals</span></a>
 			                <ul class="child-list">
-			                    <li><a href="<?=base_url();?>research/create"> Submit Research Proposal</a></li>
-			                    <li><a href="<?=base_url();?>research/list"> Review Research Proposal</a></li>
-			                    <li><a href="<?=base_url();?>research/inhouse"> Endorse Research for In-house Review</a></li>
-			                    <li><a href="<?=base_url();?>approve-research-proposal"> Approve Reseach Proposal</a></li>
-			                    <li><a href="<?=base_url();?>coordinators-list"> List of Coordinators</a></li>
-			                    <li><a href="<?=base_url();?>activities"> Activities</a></li>
-			                    <li><a href="<?=base_url();?>process-flow"> Process Flow</a></li>
-			                    <li><a href="<?=base_url();?>research-report"> Report</a></li>
+			                    <li <?=uri_string() == 'research/create-research-proposal' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/create-research-proposal"> Submit Research Proposal</a></li>
+			                    <li <?=uri_string() == 'research' ? ' class="active"':'' ?>><a href="<?=base_url();?>research"> Review Research Proposal</a></li>
+			                    <li <?=uri_string() == 'research/in-house' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/in-house"> Endorse Research for In-house Review</a></li>
+			                    <li <?=uri_string() == 'research/approve-research-proposal' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/approve-research-proposal"> Approve Reseach Proposal</a></li>
+			                    <li <?=uri_string() == 'research/coordinators-list' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/coordinators-list"> List of Coordinators</a></li>
+			                    <li <?=uri_string() == 'research/activities' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/activities"> Activities</a></li>
+			                    <li <?=uri_string() == 'research/process-flow' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/process-flow"> Process Flow</a></li>
+			                    <li <?=uri_string() == 'research/report' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/report"> Report</a></li>
 			                </ul>
 			            </li>
 			            <li class="menu-list"><a href=""><i class="mdi mdi-file-multiple"></i> <span>Project Implementation</span></a>
