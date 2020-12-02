@@ -13,6 +13,18 @@
         <!-- Theme icon -->
         <link rel="shortcut icon" href="<?=base_url();?>assets/images/favicon.ico">
 
+        <!-- Plugins css-->
+        <link href="<?=base_url();?>assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+        <link href="<?=base_url();?>assets/plugins/tagsinput/jquery.tagsinput.css" rel="stylesheet" />
+        <link href="<?=base_url();?>assets/plugins/clockpicker/jquery-clockpicker.min.css" rel="stylesheet" />
+        <link href="<?=base_url();?>assets/plugins/toggles/toggles.css" rel="stylesheet" />
+        <link href="<?=base_url();?>assets/plugins/timepicker/tempusdominus-bootstrap-4.css" rel="stylesheet" />
+        <link href="<?=base_url();?>assets/plugins/timepicker/bootstrap-material-datetimepicker.css" rel="stylesheet">
+        <link href="<?=base_url();?>assets/plugins/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
+        <link href="<?=base_url();?>assets/plugins/colorpicker/asColorPicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?=base_url();?>assets/plugins/jquery-multi-select/multi-select.css" rel="stylesheet" type="text/css" />
+        <link href="<?=base_url();?>assets/plugins/select2/select2.min.css" rel="stylesheet" type="text/css" />
+
         <!-- Theme Css -->
         <link href="<?=base_url();?>assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?=base_url();?>assets/css/slidebars.min.css" rel="stylesheet">
@@ -424,7 +436,26 @@
         <script src="<?=base_url();?>assets/js/modernizr.min.js"></script>
         <script src="<?=base_url();?>assets/js/jquery.slimscroll.min.js"></script>
         <script src="<?=base_url();?>assets/js/slidebars.min.js"></script>
-        
+
+        <script src="<?=base_url();?>assets/plugins/timepicker/moment.js"></script>
+        <script src="<?=base_url();?>assets/plugins/clockpicker/jquery-clockpicker.min.js"></script>
+        <script src="<?=base_url();?>assets/plugins/tagsinput/jquery.tagsinput.min.js"></script>
+        <script src="<?=base_url();?>assets/plugins/switchery/switchery.min.js"></script>
+        <script src="<?=base_url();?>assets/plugins/toggles/toggles.min.js"></script>
+        <script src="<?=base_url();?>assets/plugins/timepicker/tempusdominus-bootstrap-4.js"></script>
+        <script src="<?=base_url();?>assets/plugins/timepicker/bootstrap-material-datetimepicker.js"></script>
+        <!--colorpcker-->
+        <script src="<?=base_url();?>assets/plugins/colorpicker/jquery-asColor.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/colorpicker/jquery-asGradient.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/colorpicker/jquery-asColorPicker.min.js" type="text/javascript"></script>
+
+        <script src="<?=base_url();?>assets/plugins/jquery-multi-select/jquery.multi-select.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/jquery-multi-select/jquery.quicksearch.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/bootstrap-inputmask/bootstrap-inputmask.min.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/spinner/spinner.min.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/plugins/select2/select2.min.js" type="text/javascript"></script>
+        <script src="<?=base_url();?>assets/pages/jquery.form-advance.init.js" type="text/javascript"></script>
 
         <!--app js-->
         <script src="<?=base_url();?>assets/js/jquery.app.js"></script>
