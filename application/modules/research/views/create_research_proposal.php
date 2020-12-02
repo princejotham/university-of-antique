@@ -14,9 +14,14 @@
 						<label for="title">Title</label>
 						<input type="text" class="form-control" id="title" placeholder="Enter Title">
 					</div>
-					<div class="form-group">
+					<div class="form-group" id="proponent-inputs">
 						<label for="proponent">Name of Proponent/s</label>
-						<input type="text" class="form-control" id="proponent" placeholder="Enter Name of Proponent/s">
+						<div class="input-group mt-2">
+							<input type="text" class="form-control" id="proponent" placeholder="Enter Name of Proponent" name="proponent[]">
+                            <span class="input-group-append">
+                                <button type="button" name="add" id="add-proponents-input" class="btn btn-success">Add Proponent</button>
+                            </span>
+                        </div>
 					</div>
 					<div class="form-group">
 						<label for="college-affiliation">College Affiliation</label>
@@ -45,6 +50,16 @@
 					<div class="form-group">
 						<label for="budget">Line Item Budget</label>
 						<input type="text" class="form-control" id="budget" placeholder="Enter Budget">
+					</div>
+					<div class="form-group" id="item-budget-inputs">
+						<label for="budget">Line Item Budget</label>
+						<input type="text" class="form-control" id="budget" placeholder="Enter Budget">
+						<div class="input-group mt-2 col-sm-4">
+							<input type="text" class="form-control" id="budget" placeholder="Enter Name of Proponent" name="budget[]">
+                            <span class="input-group-append">
+                                <button type="button" name="add" id="add-budget-input" class="btn btn-success">Add Item Budget</button>
+                            </span>
+                        </div>
 					</div>
 					<div class="form-group">
 						<label for="credentials">Credentials of Key Personel/Staff Involved</label>

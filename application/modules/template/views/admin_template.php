@@ -459,5 +459,6 @@
 
         <!--app js-->
         <script src="<?=base_url();?>assets/js/jquery.app.js"></script>
+        <script src="<?=base_url();?>assets/js/scripts.js"></script>
     </body>
 </html>
