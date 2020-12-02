@@ -12,7 +12,7 @@ class Research extends MY_Controller {
 
 	public function create_research_proposal() {
 		$data['page_title'] = "Submit Research Proposal";
-		$data['content_view'] = "research/index";
+		$data['content_view'] = "research/create";
 
 		$this->template->index($data);
 	}
