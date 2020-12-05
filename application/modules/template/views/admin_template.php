@@ -31,6 +31,7 @@
         <link href="<?=base_url();?>assets/css/icons.css" rel="stylesheet">
         <link href="<?=base_url();?>assets/css/menu.css" rel="stylesheet" type="text/css">
         <link href="<?=base_url();?>assets/css/style.css" rel="stylesheet">
+        <link href="<?=base_url();?>assets/css/global.css" rel="stylesheet">
     </head>
 
     <body class="sticky-header">
@@ -63,6 +64,7 @@
 			                    <li <?=uri_string() == 'research' ? ' class="active"':'' ?>><a href="<?=base_url();?>research"> Review Research Proposal</a></li>
 			                    <li <?=uri_string() == 'research/in-house' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/in-house"> Endorse Research for In-house Review</a></li>
 			                    <li <?=uri_string() == 'research/approve-research-proposal' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/approve-research-proposal"> Approve Reseach Proposal</a></li>
+			                    <li <?=uri_string() == 'research/internally-funded-research' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/internally-funded-research"> Internally-Funded Research</a></li>
 			                    <li <?=uri_string() == 'research/coordinators-list' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/coordinators-list"> List of Coordinators</a></li>
 			                    <li <?=uri_string() == 'research/activities' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/activities"> Activities</a></li>
 			                    <li <?=uri_string() == 'research/process-flow' ? ' class="active"':'' ?>><a href="<?=base_url();?>research/process-flow"> Process Flow</a></li>
