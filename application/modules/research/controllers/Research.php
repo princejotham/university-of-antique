@@ -85,4 +85,11 @@ class Research extends MY_Controller
 
 		$this->template->index($data);
 	}
+
+	public function create_activity() {
+		$data['page_title'] = "Create New Activity";
+		$data['content_view'] = "research/create_activity";
+
+		$this->template->index($data);
+	}
 }

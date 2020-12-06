@@ -9,15 +9,27 @@ $(document).ready(function(){
 		var button_id = $(this).attr("id"); 
 		$('#rowproponent'+button_id+'').remove();
 	});
-	var j=1;
+
+	var i=1;
 	$('#add-budget-input').click(function(){
-		j++;
-		$('#item-budget-inputs').append('<div class="input-group mt-2" id="rowbudget'+j+'"><input type="text" class="form-control" id="budget-item'+j+'" placeholder="Enter Budget Item" name="budgetitem[]"><input type="text" class="form-control" id="budget-amount'+j+'" placeholder="Enter Budget Amount" name="budgetamount[]"><span class="input-group-append"><button type="button" name="removebudget" id="'+j+'" class="btn btn-danger btn_remove_budget">Del</button></span></div>');
+		i++;
+		$('#item-budget-inputs').append('<div class="input-group mt-2" id="rowbudget'+i+'"><input type="text" class="form-control" id="budget-item'+i+'" placeholder="Enter Budget Item" name="budgetitem[]"><input type="text" class="form-control" id="budget-amount'+i+'" placeholder="Enter Budget Amount" name="budgetamount[]"><span class="input-group-append"><button type="button" name="removebudget" id="'+i+'" class="btn btn-danger btn_remove_budget">Del</button></span></div>');
 	});
 	
 	$(document).on('click', '.btn_remove_budget', function(){
 		var button_id = $(this).attr("id"); 
 		$('#rowbudget'+button_id+'').remove();
+	});
+
+	var i=1;
+	$('#add-person-input').click(function(){
+		i++;
+		$('#person-inputs').append('<div class="input-group mt-2" id="rowperson'+i+'"><input type="text" class="form-control" id="person'+i+'" placeholder="Enter Person Involve" name="person[]"><span class="input-group-append"><button type="button" name="removeperson" id="'+i+'" class="btn btn-danger btn_remove_person">Del</button></span></div>');
+	});
+	
+	$(document).on('click', '.btn_remove_person', function(){
+		var button_id = $(this).attr("id"); 
+		$('#rowperson'+button_id+'').remove();
 	});
 	
 	$('#submit').click(function(){		
