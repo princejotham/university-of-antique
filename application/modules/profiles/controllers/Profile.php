@@ -71,18 +71,4 @@ class Research extends MY_Controller
 
 		$this->template->index($data);
 	}
-
-	public function research_project() {
-		$data['page_title'] = "Project Profile";
-		$data['content_view'] = "research/research_project";
-
-		$this->template->index($data);
-	}
-
-	public function create_coordinator() {
-		$data['page_title'] = "Create New Coordinator";
-		$data['content_view'] = "research/create_coordinator";
-
-		$this->template->index($data);
-	}
 }

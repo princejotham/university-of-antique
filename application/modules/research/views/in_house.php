@@ -1,12 +1,11 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<div class="page-head">
-	<h2 class="my-2 text-center"><?=$page_title;?></h2>
-</div>
-
 <div class="row">
 	<div class="col-12">
-		<div class="card m-b-30">
+		<div class="card m-b-30 my-2">
 			<div class="card-body">
+				<div class="page-head">
+					<h2 class="text-center"><?=$page_title;?></h2>
+				</div>
 				<h5 class="header-title pb-3 text-center">College of <?=$college;?></h5>
 
 				<div class="table-responsive-sm">

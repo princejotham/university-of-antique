@@ -72,7 +72,7 @@
 					<input type="text" class="form-control" id="prepared-by" placeholder="Enter Prepared By">
 				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
-				<button type="button" class="btn btn-warning">Upload Soft Copy</button>
+				<button type="button" class="btn btn-info">Upload Soft Copy</button>
 			</form>
 		</div>
 	</div>
